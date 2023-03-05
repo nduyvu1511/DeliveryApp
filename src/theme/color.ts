@@ -1,0 +1,81 @@
+export const COLORS = {
+  gray05: '#F5F7F8',
+  gray10: '#F7F7F7',
+  gray20: '#EBEBEB',
+  gray30: '#DDDDDD',
+  gray40: '#B9B9B9',
+  gray95: '#141414',
+  gray50: '#838080',
+  gray60: '#525252',
+  gray70: '#575757',
+  grayBg: '#FAFAFA',
+  active: '#2F80ED',
+  inputBg: '#F8F8F8',
+  touchableBg: '#EBEBEB',
+  placeHolder: '#C4C4C4',
+  white: '#FFFFFF',
+  transparent: 'transparent',
+  white98: '#FFFEFE',
+  red: '#EB5757',
+  redBg: '#FFE2E0',
+  black: '#000000',
+  bg: '#F8F8F8',
+  primary: '#47A7FF',
+  bgPrimary: '#eaf2ff',
+  bgPrimary2: '#d7e6ff',
+  gray: '#767676',
+  disabled: '#DDDDDD',
+  warning: '#ED9526',
+  error: '#FF3B30',
+  info: '#47A7FF',
+  secondary: '#c3c3c3',
+  success: '#008F5D',
+  text95: '#080917',
+  textBody: '#3A3A3A',
+  black50: 'rgba(0, 0, 0, 0.5)',
+  black40: 'rgba(0, 0, 0, 0.4)',
+  black30: 'rgba(0, 0, 0, 0.3)',
+  black80: 'rgba(0, 0, 0, 0.8)',
+  borderColor1: '#F7F7F7',
+  dark: '#28303F',
+  bgPrimaryLight: '#EAF2FD',
+  directionStroke: '#47A7FF',
+}
+
+export const CUSTOMER_STATUS_COLOR = {
+  1: { color: '#FF3B30', bg: '#FFE2E0' },
+  2: { color: '#ED9526', bg: '#FFF0DD' },
+  3: { color: '#14CC62', bg: '#D9FFEF' },
+  4: { color: '#D9D9D9 ', bg: '#F5F5F5' },
+}
+
+export const BUTTON_COLORS = {
+  primary: {
+    bg: COLORS.primary,
+    color: COLORS.white,
+  },
+  warning: {
+    bg: COLORS.warning,
+    color: COLORS.white,
+  },
+  error: {
+    bg: COLORS.redBg,
+    color: COLORS.red,
+  },
+  info: {
+    bg: COLORS.info,
+    color: COLORS.white,
+  },
+  danger: {
+    bg: COLORS.info,
+    color: COLORS.white,
+  },
+  secondary: {
+    bg: COLORS.secondary,
+    color: COLORS.white98,
+  },
+  success: {
+    bg: COLORS.success,
+    color: COLORS.white,
+  },
+}
